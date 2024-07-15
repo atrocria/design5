@@ -323,9 +323,6 @@
 			top: -0.25em;
 		}
 
-		h2 + p {
-		}
-
 		h3 + p {
 			font-size: 1.1em;
 		}
@@ -1581,7 +1578,7 @@
 		@include vendor('flex-direction', 'column');
 		@include vendor('justify-content', 'center');
 		cursor: default;
-		background: url('path/to/your/pic03.jpg') no-repeat center center;
+		background: url('/images/pic03.jpg') no-repeat center center;
 		background-size: cover;
 		overflow: hidden;
 		display: flex;
@@ -1832,7 +1829,7 @@
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/pic03.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1957,7 +1954,7 @@
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/pic03.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1978,7 +1975,7 @@
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/pic03.jpg")'));
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
